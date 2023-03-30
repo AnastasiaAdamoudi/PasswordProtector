@@ -1,0 +1,15 @@
+{
+  "name": "workshop_js-102",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve -l 3000 .",
+    "test": "playwright test --config __tests__/playwright.config.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "serve": "^14.2.0"
+  }
+}
